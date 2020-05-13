@@ -6,6 +6,9 @@ from sklearn.datasets import load_iris
 print("----- Classifying IRIS flower with sklearn using LibSVM  ----")
 iris = load_iris()  # contains 3 classes, 150 samples with 4 features
 
+# Training/Test split: there already is an internal sk learn function 
+# https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html
+
 # Index samples by class
 zippedY2X = {} # indexed data: class (y) -> list of samples (X)
 for x, y in zip(iris.data, iris.target):

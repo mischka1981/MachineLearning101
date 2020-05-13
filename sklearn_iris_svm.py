@@ -1,9 +1,7 @@
 import numpy as np
-import matplotlib.pyplot as plt
 import random
 from sklearn import svm
 from sklearn.datasets import load_iris
-from sklearn.decomposition import PCA, IncrementalPCA
 
 print("----- Classifying IRIS flower with sklearn using LibSVM  ----")
 iris = load_iris()  # contains 3 classes, 150 samples with 4 features
@@ -43,7 +41,6 @@ clf = svm.SVC(kernel='poly', gamma=0.5)
 clf.fit(    compiledTrainingData['samples'], 
             np.asarray(compiledTrainingData['targets']).ravel() )
 
-# use the never-before-seen test data sample to check if model is good
 for y, X in testY2X.items():
     p_y = clf.predict(X)
     print("Predicted {py} for actual target {at}".format(py = p_y, at = y))

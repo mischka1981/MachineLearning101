@@ -1,4 +1,11 @@
-# MachineLearning101: sklearn_iris_svm.py
+# MachineLearning101
+
+## (tensorflow, keras) Iris classification with Neural Network, gradient descent: tf_nn_iris.py 
+
+Should be more or less the classic backpropagation approach (tf_nn_iris.py).
+This is heavily inspired from the example found on the Tensorflow site, but is extended with the adaption of the learning rate (coupled to network error), allowing for a significant reduction in neurons! 
+
+## (sklearn) Iris classification with SVM: sklearn_iris_svm.py
 
 sklearn_iris_svm.py is an easy example for demonstrating how to use a SVM (Support Vector Machine) with python.
 

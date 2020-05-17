@@ -1,5 +1,10 @@
 # MachineLearning101
 
+## (Google Text-to-Speech and Speech-to-Text) Dialog / interview system (interview.py)
+
+All text snippets in german.
+The computer asks a number of questions through audio playback and the user answers with his voice. In the end, the computer plays a summary of what it understood.
+
 ## (tensorflow, keras) Iris classification with Neural Network, gradient descent: tf_nn_iris.py 
 
 Should be more or less the classic backpropagation approach (tf_nn_iris.py).
